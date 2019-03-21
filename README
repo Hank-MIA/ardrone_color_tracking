@@ -14,12 +14,12 @@ http://wiki.ros.org/kinetic
         b) Install this package
             Clone this repository to your catkin workspace/src
             In your catkin workspace, use command catkin_make
-        c) To launch, connect your wifi to Ardrone, and use following launch command in your terminal:
+        c) To launch, connect your wifi to your Ardrone, and use following launch command in your terminal:
             roslaunch ardrone_color_tracking keyboard_controller.launch
 
     2. With Gazebo simulation:
         a) Install modified tum_simulator
-            (Has not yet been published on Github, will update soon. Or you can modify the original test world)
+            https://github.com/hugagaga/4901
         b) launch roscore and the simulator in different terminals
             roscore
             roslaunch cvg_sim_gazebo ardrone_testword.launch

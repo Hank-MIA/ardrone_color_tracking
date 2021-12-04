@@ -1,5 +1,4 @@
 ROS Package Name: ardrone_color_tracking
-Video Demonstration: Comming Soon
 
 Package Description:
     This package enables the drone to follow an object of certain color.
